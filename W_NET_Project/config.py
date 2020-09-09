@@ -9,7 +9,7 @@ class Config():
 
         self.k = 4 # Number of classes
         self.num_epochs = 9 #300 for real
-        self.data_dir = "/content/drive/My Drive/pytorch1/" # Directory of images
+        self.data_dir = "/content/drive/My Drive/W_NET_Project/" # Directory of images
         self.showdata = False # Debug the data augmentation by showing the data we're training on.
 
         self.useInstanceNorm = True # Instance Normalization
@@ -24,7 +24,7 @@ class Config():
         self.decoderLayerSizes = [512, 256]
 
         self.showSegmentationProgress = True
-        self.segmentationProgressDir = '/content/drive/My Drive/pytorch1/latent_images/'
+        self.segmentationProgressDir = '/content/drive/My Drive/W_NET_Project//latent_images/'
 
         self.variationalTranslation = 0 # Pixels, 0 for off. 1 works fine
 

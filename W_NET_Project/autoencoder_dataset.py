@@ -27,9 +27,9 @@ class AutoencoderDataset(Dataset):
         self.data_path  = os.path.join(config.data_dir, mode)
         #self.images_dir = os.path.join(self.data_path)
         if mode == "train":
-            self.images_dir = '/content/drive/My Drive/pytorch1/train'
+            self.images_dir = '/content/drive/My Drive/W_NET_Project/Dataset/train'
         else:
-            self.images_dir = '/content/drive/My Drive/pytorch1/val'
+            self.images_dir = '/content/drive/My Drive/W_NET_Project/Dataset/val'
         #print(self.images_dir)
         self.image_list = self.get_image_list()
         self.transforms = input_transforms
